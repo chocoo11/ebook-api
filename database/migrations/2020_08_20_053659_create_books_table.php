@@ -20,7 +20,7 @@ class CreateBooksTable extends Migration
             $table->string('author');
             $table->string('publisher');
             $table->date('date_of_issue');
-            $table->timestamps(); //akan membuat 2 kolom :creat_at dan update_at
+            $table->timestamps();
         });
     }
 
